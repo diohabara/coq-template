@@ -1,0 +1,53 @@
+---
+fullname: { full-library-name }
+shortname: { short-library-name }
+organization: { organization }
+community: true
+action: true
+nix: true
+dune: true
+coqdoc: true
+
+synopsis: { synopsis }
+
+description: |-
+  { description }
+
+authors:
+  - name: Takemaru Kadoi
+    initial: false
+
+maintainers:
+  - name: Takemaru Kadoi
+    nickname: diohabara
+
+opam-file-maintainer: diohabara@gmail.com
+
+opam-file-version: dev
+
+license:
+  fullname: MIT License
+  identifier: MIT
+
+supported_coq_versions:
+  text: 8.12 or later
+  opam: '{(>= "8.12" & < "8.16~") | (= "dev")}'
+
+tested_coq_opam_versions:
+  - version: dev
+  - version: "8.15"
+  - version: "8.14"
+  - version: "8.13"
+  - version: "8.12"
+
+tested_coq_nix_versions:
+  - coq_version: "8.15"
+
+keywords:
+  - name: { keyword }
+
+categories:
+  - name: { category }
+
+---
+
