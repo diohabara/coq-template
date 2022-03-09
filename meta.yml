@@ -1,7 +1,7 @@
 ---
-fullname: { full-library-name }
-shortname: { short-library-name }
-organization: { organization }
+fullname: { library-name }
+shortname: { repository-name }
+organization: diohabara
 community: true
 action: true
 nix: true
