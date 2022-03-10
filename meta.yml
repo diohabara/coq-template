@@ -1,17 +1,16 @@
 ---
-fullname: { library-name }
-shortname: { repository-name }
+fullname: "library"
+shortname: "repository-name"
 organization: diohabara
-community: true
 action: true
 nix: true
 dune: true
 coqdoc: true
 
-synopsis: { synopsis }
+synopsis: "synopsis"
 
 description: |-
-  { description }
+  "description"
 
 authors:
   - name: Takemaru Kadoi
@@ -30,24 +29,20 @@ license:
   identifier: MIT
 
 supported_coq_versions:
-  text: 8.12 or later
-  opam: '{(>= "8.12" & < "8.16~") | (= "dev")}'
+  text: 8.14 or later
+  opam: '{(>= "8.14" & < "8.16~") | (= "dev")}'
+
+supported_ocaml_versions:
+  text: 4.12 or later
+  opam: '{(>= "4.12" & < "4.14") | (= "dev")}'
 
 tested_coq_opam_versions:
   - version: dev
   - version: "8.15"
   - version: "8.14"
-  - version: "8.13"
-  - version: "8.12"
 
 tested_coq_nix_versions:
   - coq_version: "8.15"
-
-keywords:
-  - name: { keyword }
-
-categories:
-  - name: { category }
 
 ---
 
