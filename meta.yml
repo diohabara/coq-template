@@ -1,3 +1,4 @@
+# run: nix-shell -p mustache-go --run $TMP/generate.sh
 ---
 fullname: "library" # TODO:
 shortname: "repository-name" # TODO:
