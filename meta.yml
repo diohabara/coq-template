@@ -1,10 +1,9 @@
-# run the below command:
-# nix-shell -p mustache-go --run "$TMP/generate.sh .github/workflows/nix-action.yml theories/dune dune-project README.md"
+# refer to: https://github.com/coq-community/templates/blob/master/ref.yml
 ---
-fullname: "fullname" # TODO:
+fullname: "fullname" # TODO: This software's name
 organization: diohabara # TODO: GitHub organization
 namespace: namespace # TODO: `name` in theories/dune
-shortname: "short" # TODO: repository name
+shortname: "short" # TODO: Repository name
 action: true
 nix: true
 dune: true
@@ -39,7 +38,7 @@ supported_coq_versions:
 tested_coq_nix_versions:
   - coq_version: "8.15"
 
-documentation: |- # TODO:
+documentation: |-
   ## Documentation
 
   ### How to generate files
