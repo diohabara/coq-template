@@ -3,6 +3,7 @@
 ---
 fullname: "fullname" # TODO:
 organization: diohabara # TODO: GitHub organization
+namespace: namespace # TODO: `name` in theories/dune
 shortname: "short" # TODO: repository name
 action: true
 nix: true
