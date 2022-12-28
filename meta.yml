@@ -1,7 +1,8 @@
-# run: nix-shell -p mustache-go --run $TMP/generate.sh
+# run the below command:
+# nix-shell -p mustache-go --run "$TMP/generate.sh .github/workflows/nix-action.yml theories/dune dune-project README.md"
 ---
-fullname: "library" # TODO:
-shortname: "repository-name" # TODO:
+fullname: "fullname" # TODO:
+shortname: "short" # TODO:
 organization: diohabara # TODO:
 action: true
 nix: true
