@@ -1,26 +1,26 @@
 ---
-fullname: "library"
-shortname: "repository-name"
-organization: diohabara
+fullname: "library" # TODO:
+shortname: "repository-name" # TODO:
+organization: diohabara # TODO:
 action: true
 nix: true
 dune: true
 coqdoc: true
 
-synopsis: "synopsis"
+synopsis: "synopsis" #TODO:
 
-description: |-
+description: |- # TODO:
   "description"
 
-authors:
+authors: # TODO:
   - name: Takemaru Kadoi
     initial: false
 
-maintainers:
+maintainers: # TODO:
   - name: Takemaru Kadoi
     nickname: diohabara
 
-opam-file-maintainer: diohabara@gmail.com
+opam-file-maintainer: diohabara@gmail.com # TODO:
 
 opam-file-version: dev
 
